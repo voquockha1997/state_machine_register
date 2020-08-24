@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/Led.c
+stdio.h
+-
+unistd.h
+-
+
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/Led.h
+
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/StateMachine.c
+stdio.h
+-
+Led.h
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/Led.h
+main.h
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/main.h
+StateMachine.h
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/StateMachine.h
+unistd.h
+-
+
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/StateMachine.h
+
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/main.c
+stdio.h
+-
+stdbool.h
+-
+unistd.h
+-
+StateMachine.h
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/StateMachine.h
+
+/home/kha/my_lib/lib/src/register/StateMachine/FunctionPointerStateMachineExample/src/main.h
+stdbool.h
+-
+
